@@ -1,4 +1,4 @@
-\documentclass[UTF8]{ctexart}   %指定文档的类型为 ctexart 使用 UTF-8 编码格式
+\documentclass{report}          %或者{artcile}、{ctexart}   %指定文档的类型
 \usepackage{ctex}               %调用ctex字库
 \usepackage{graphicx}           %调用graphicx包库，用于插入图片
 
@@ -35,6 +35,9 @@
 
 \tableofcontents                %自动生成目录
 
+\thispagestyle{empty}
+
+\clearpage                      %同上分页符
 
 \section{前言}                  %设置标题
                                 %标题等级：由高到低(由大到小排序)
